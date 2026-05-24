@@ -353,9 +353,7 @@ export default function Index() {
             <h1 style={{ fontFamily: 'Cormorant Garamond', fontSize: '2.2rem', fontWeight: 500, letterSpacing: '0.06em', color: 'hsl(35 20% 88%)', lineHeight: 1.15 }}>
               Мастерская Ратибория
             </h1>
-            <p style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.3rem', fontStyle: 'italic', fontWeight: 300, color: 'var(--copper-light)', marginTop: 4, letterSpacing: '0.04em' }}>
-              Вселенная авторского искусства
-            </p>
+            <p style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.3rem', fontStyle: 'italic', fontWeight: 300, color: 'var(--copper-light)', marginTop: 4, letterSpacing: '0.04em' }}>       Вселенная авторского искусства</p>
           </div>
         </div>
 
