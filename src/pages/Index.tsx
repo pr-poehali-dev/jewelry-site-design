@@ -482,9 +482,7 @@ export default function Index() {
                 <div className="w-8 h-8 rounded-sm flex items-center justify-center flex-shrink-0" style={{ border: '1px solid rgba(184,115,51,0.25)', background: 'rgba(184,115,51,0.05)' }}>
                   <Icon name="Mail" size={13} style={{ color: 'var(--copper)' }} />
                 </div>
-                <span style={{ fontFamily: 'Montserrat', fontSize: '0.88rem', color: 'rgba(212,149,106,0.75)' }}>
-                  info@aurum.ru
-                </span>
+                <span style={{ fontFamily: 'Montserrat', fontSize: '0.88rem', color: 'rgba(212,149,106,0.75)' }}>salynkv@mail.ru</span>
               </a>
             </div>
           </div>
