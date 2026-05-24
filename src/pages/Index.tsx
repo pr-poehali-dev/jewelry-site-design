@@ -406,9 +406,9 @@ export default function Index() {
             Украшения, созданные<br />
             <em style={{ fontFamily: '"Monotype Corsiva", "Cormorant Garamond", cursive', fontStyle: 'italic', color: 'var(--copper-light)' }}>с душой и мастерством</em>
           </h2>
-          <p className="animate-fade-in-up stagger-3" style={{ fontSize: '0.88rem', color: 'rgba(212,149,106,0.6)', lineHeight: 1.8, maxWidth: 480, marginBottom: 32 }}>
-            Каждое изделие — уникальная история, воплощённая в металле. Ручная работа, благородные материалы, вечная красота.
-          </p>
+          <p className="animate-fade-in-up stagger-3" style={{ fontSize: '0.88rem', color: 'rgba(212,149,106,0.6)', lineHeight: 1.8, maxWidth: 480, marginBottom: 32 }}>Каждое изделие — уникальная история, воплощённая в металле. Ручная работа, благородные материалы, вечная красота.
+Звоните, пишите, создам то, что нужно вам.
+Все изделия индивидуальны, имеется возможность замены бисера, камней, проволоки, цвета и формы, стиля под вас.</p>
           <div className="animate-fade-in-up stagger-4 flex items-center gap-4">
             <button
               className="btn-copper px-8 py-3.5 rounded-sm"
