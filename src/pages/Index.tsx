@@ -494,7 +494,7 @@ export default function Index() {
               <p>Пн–Вс: 09:00 – 20:00
 (вселенная не дремлет)</p>
               <p></p>
-              <p>Вс: выходной</p>
+              <p></p>
             </div>
           </div>
         </div>
