@@ -22,9 +22,10 @@ const EARRINGS_IMG = 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-d
 const BRACELETS_IMG = 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/files/df0a2c6a-0d45-484e-b949-d31724527716.jpg';
 
 const PRODUCTS: Product[] = [
-  { id: 1, name: 'Кольцо «Плетение»', price: 12800, category: 'rings', image: RINGS_IMG, material: 'Золото 585', isNew: true },
-  { id: 2, name: 'Кольцо «Спираль»', price: 9600, category: 'rings', image: RINGS_IMG, material: 'Серебро 925' },
-  { id: 3, name: 'Кольцо «Орнамент»', price: 15200, category: 'rings', image: RINGS_IMG, material: 'Золото 750' },
+  { id: 1, name: 'Лазурный Бриз', price: 3000, category: 'rings', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/e0984b8f-95bc-4019-a734-4defc5c10c13.jpg', material: 'Авторская работа', isNew: true },
+  { id: 2, name: 'Жемчужный Риф', price: 3000, category: 'rings', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/1bae46ab-01fd-49ad-80ff-f97c069bcd00.jpg', material: 'Авторская работа' },
+  { id: 3, name: 'Волна Вечности', price: 3000, category: 'rings', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/f1f705c3-2f79-4911-80fd-3fa906ece627.jpg', material: 'Авторская работа' },
+  { id: 15, name: 'Морской Рассвет', price: 3000, category: 'rings', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/8b74846b-4b07-4480-94d7-ac6b0d9f0765.jpg', material: 'Авторская работа' },
   { id: 4, name: 'Серьги «Каскад»', price: 8400, category: 'earrings', image: EARRINGS_IMG, material: 'Золото 585', isNew: true },
   { id: 5, name: 'Серьги «Луна»', price: 6200, category: 'earrings', image: EARRINGS_IMG, material: 'Серебро 925' },
   { id: 6, name: 'Браслет «Нить»', price: 11400, category: 'bracelets', image: BRACELETS_IMG, material: 'Золото 585' },
