@@ -493,7 +493,7 @@ export default function Index() {
             <div className="space-y-2" style={{ fontSize: '0.82rem', color: 'rgba(212,149,106,0.5)' }}>
               <p>Пн–Вс: 09:00 – 20:00
 (вселенная не дремлет)</p>
-              <p>Сб: 11:00 – 17:00</p>
+              <p></p>
               <p>Вс: выходной</p>
             </div>
           </div>
