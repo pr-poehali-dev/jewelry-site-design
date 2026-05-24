@@ -347,7 +347,7 @@ export default function Index() {
           <img
             src="https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/50d7d50c-e5fa-42ad-b22f-0e926100c357.png"
             alt="Мастерская Ратибория"
-            style={{ height: 72, width: 'auto', objectFit: 'contain' }}
+            style={{ height: 144, width: 'auto', objectFit: 'contain' }}
           />
           <div>
             <h1 style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.45rem', fontWeight: 500, letterSpacing: '0.06em', color: 'hsl(35 20% 88%)', lineHeight: 1.15 }}>
@@ -460,7 +460,7 @@ export default function Index() {
               <img
                 src="https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/bc20080b-511a-4881-881a-982a527fcab0.png"
                 alt="Мастерская Ратибория"
-                style={{ height: 60, width: 60, objectFit: 'cover', borderRadius: '50%', border: '1px solid rgba(184,115,51,0.35)' }}
+                style={{ height: 120, width: 120, objectFit: 'cover', borderRadius: '50%', border: '1px solid rgba(184,115,51,0.35)' }}
               />
             </div>
             <p style={{ fontSize: '0.78rem', color: 'rgba(212,149,106,0.4)', maxWidth: 260, lineHeight: 1.7 }}>
