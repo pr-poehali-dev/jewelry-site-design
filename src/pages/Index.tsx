@@ -343,12 +343,20 @@ export default function Index() {
       {/* ── HEADER ─────────────────────────────────────────────────────── */}
       <header className="relative z-10 flex items-center justify-between px-6 md:px-12 py-5" style={{ borderBottom: '1px solid rgba(184,115,51,0.18)' }}>
         {/* Logo area */}
-        <div className="flex items-center">
+        <div className="flex items-center gap-4">
           <img
             src="https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/50d7d50c-e5fa-42ad-b22f-0e926100c357.png"
             alt="Мастерская Ратибория"
             style={{ height: 72, width: 'auto', objectFit: 'contain' }}
           />
+          <div>
+            <h1 style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.45rem', fontWeight: 500, letterSpacing: '0.06em', color: 'hsl(35 20% 88%)', lineHeight: 1.15 }}>
+              Мастерская Ратибория
+            </h1>
+            <p style={{ fontFamily: 'Cormorant Garamond', fontSize: '0.95rem', fontStyle: 'italic', fontWeight: 300, color: 'var(--copper-light)', marginTop: 3, letterSpacing: '0.04em' }}>
+              Вселенная авторского искусства
+            </p>
+          </div>
         </div>
 
         {/* Nav + contacts */}
