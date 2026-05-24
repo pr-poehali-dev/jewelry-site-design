@@ -31,6 +31,11 @@ const PRODUCTS: Product[] = [
   { id: 7, name: 'Браслет «Витой»', price: 7800, category: 'bracelets', image: BRACELETS_IMG, material: 'Серебро 925', isNew: true },
   { id: 8, name: 'Кулон «Роса»', price: 5600, category: 'pendants', image: EARRINGS_IMG, material: 'Серебро 925' },
   { id: 9, name: 'Кулон «Звезда»', price: 9200, category: 'pendants', image: BRACELETS_IMG, material: 'Золото 585' },
+  { id: 10, name: 'Звёздный Причал', price: 12000, category: 'sets', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/62ae4765-cd0e-4eec-9575-4c09ccab796b.jpg', material: 'Авторская работа', isNew: true },
+  { id: 11, name: 'Млечный Путь', price: 12000, category: 'sets', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/df2ce426-92e7-44e3-b5b1-c3602336ecd7.jpg', material: 'Авторская работа' },
+  { id: 12, name: 'Космический Ковчег', price: 12000, category: 'sets', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/2f9928ac-e711-4a43-929e-d417047dc3b3.jpg', material: 'Авторская работа' },
+  { id: 13, name: 'Астральный Мост', price: 12000, category: 'sets', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/a027d34b-ffc7-4fcb-b1a5-7fc816c61a39.jpg', material: 'Авторская работа' },
+  { id: 14, name: 'Галактический Странник', price: 12000, category: 'sets', image: 'https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/8058b8ad-324f-4cb5-ae25-eab2a7700531.jpg', material: 'Авторская работа' },
 ];
 
 const CATEGORIES = [
@@ -39,6 +44,7 @@ const CATEGORIES = [
   { id: 'earrings', label: 'Серьги' },
   { id: 'bracelets',label: 'Браслеты' },
   { id: 'pendants', label: 'Кулоны' },
+  { id: 'sets',     label: 'Комплект' },
 ];
 
 function fmt(n: number) {
