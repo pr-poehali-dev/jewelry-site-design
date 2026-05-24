@@ -363,7 +363,7 @@ export default function Index() {
             <button
               key={c.id}
               onClick={() => { setActiveCategory(c.id); document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' }); }}
-              style={{ fontFamily: 'Montserrat', fontSize: '0.68rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: activeCategory === c.id ? 'var(--copper-light)' : 'rgba(212,149,106,0.5)', transition: 'color 0.3s' }}
+              style={{ fontFamily: 'Montserrat', fontSize: '1.36rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: activeCategory === c.id ? 'var(--copper-light)' : 'rgba(212,149,106,0.5)', transition: 'color 0.3s' }}
               className="hover:text-copper-light"
             >
               {c.label}
