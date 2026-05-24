@@ -343,18 +343,12 @@ export default function Index() {
       {/* ── HEADER ─────────────────────────────────────────────────────── */}
       <header className="relative z-10 flex items-center justify-between px-6 md:px-12 py-5" style={{ borderBottom: '1px solid rgba(184,115,51,0.18)' }}>
         {/* Logo area */}
-        <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-sm flex items-center justify-center flex-shrink-0" style={{ border: '1px solid rgba(184,115,51,0.35)', background: 'rgba(184,115,51,0.07)' }}>
-            <Icon name="Gem" size={22} style={{ color: 'var(--copper)' }} />
-          </div>
-          <div>
-            <h1 style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.6rem', fontWeight: 500, letterSpacing: '0.08em', color: 'hsl(35 20% 88%)', lineHeight: 1 }}>
-              AURUM
-            </h1>
-            <p style={{ fontSize: '0.58rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--copper)', marginTop: 3 }}>
-              Ювелирные украшения
-            </p>
-          </div>
+        <div className="flex items-center">
+          <img
+            src="https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/50d7d50c-e5fa-42ad-b22f-0e926100c357.png"
+            alt="Мастерская Ратибория"
+            style={{ height: 72, width: 'auto', objectFit: 'contain' }}
+          />
         </div>
 
         {/* Nav + contacts */}
@@ -454,9 +448,12 @@ export default function Index() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <Icon name="Gem" size={18} style={{ color: 'var(--copper)' }} />
-              <span style={{ fontFamily: 'Cormorant Garamond', fontSize: '1.3rem', letterSpacing: '0.1em' }}>AURUM</span>
+            <div className="flex items-center mb-4">
+              <img
+                src="https://cdn.poehali.dev/projects/09e42f5e-adf2-480a-b885-df5f7fb55ace/bucket/50d7d50c-e5fa-42ad-b22f-0e926100c357.png"
+                alt="Мастерская Ратибория"
+                style={{ height: 60, width: 'auto', objectFit: 'contain' }}
+              />
             </div>
             <p style={{ fontSize: '0.78rem', color: 'rgba(212,149,106,0.4)', maxWidth: 260, lineHeight: 1.7 }}>
               Авторские ювелирные украшения ручной работы. Создаём красоту, которая живёт вечно.
