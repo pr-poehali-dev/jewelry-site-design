@@ -394,7 +394,7 @@ export default function Index() {
           </p>
           <h2 className="animate-fade-in-up stagger-2" style={{ fontFamily: 'Cormorant Garamond', fontSize: 'clamp(2.4rem, 5vw, 4rem)', fontWeight: 300, lineHeight: 1.1, color: 'hsl(35 20% 90%)', marginBottom: 20 }}>
             Украшения, созданные<br />
-            <em style={{ fontStyle: 'italic', color: 'var(--copper-light)' }}>с душой и мастерством</em>
+            <em style={{ fontFamily: '"Monotype Corsiva", "Cormorant Garamond", cursive', fontStyle: 'italic', color: 'var(--copper-light)' }}>с душой и мастерством</em>
           </h2>
           <p className="animate-fade-in-up stagger-3" style={{ fontSize: '0.88rem', color: 'rgba(212,149,106,0.6)', lineHeight: 1.8, maxWidth: 480, marginBottom: 32 }}>
             Каждое изделие — уникальная история, воплощённая в металле. Ручная работа, благородные материалы, вечная красота.
