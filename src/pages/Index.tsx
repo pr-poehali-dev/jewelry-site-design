@@ -492,6 +492,12 @@ export default function Index() {
                 </div>
                 <span style={{ fontFamily: 'Montserrat', fontSize: '0.88rem', color: 'rgba(212,149,106,0.75)' }}>salynkv@mail.ru</span>
               </a>
+              <a href="https://vk.com/id102226943" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3" style={{ textDecoration: 'none' }}>
+                <div className="w-8 h-8 rounded-sm flex items-center justify-center flex-shrink-0" style={{ border: '1px solid rgba(184,115,51,0.25)', background: 'rgba(184,115,51,0.05)' }}>
+                  <Icon name="Users" size={13} style={{ color: 'var(--copper)' }} />
+                </div>
+                <span style={{ fontFamily: 'Montserrat', fontSize: '0.88rem', color: 'rgba(212,149,106,0.75)' }}>ВКонтакте</span>
+              </a>
             </div>
           </div>
 
