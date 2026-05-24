@@ -476,9 +476,7 @@ export default function Index() {
                 <div className="w-8 h-8 rounded-sm flex items-center justify-center flex-shrink-0" style={{ border: '1px solid rgba(184,115,51,0.25)', background: 'rgba(184,115,51,0.05)' }}>
                   <Icon name="Phone" size={13} style={{ color: 'var(--copper)' }} />
                 </div>
-                <span style={{ fontFamily: 'Montserrat', fontSize: '0.88rem', color: 'rgba(212,149,106,0.75)', transition: 'color 0.3s' }}>
-                  +7 (000) 000-00-00
-                </span>
+                <span style={{ fontFamily: 'Montserrat', fontSize: '0.88rem', color: 'rgba(212,149,106,0.75)', transition: 'color 0.3s' }}>+7 (913) 562-03-73</span>
               </a>
               <a href="mailto:info@aurum.ru" className="flex items-center gap-3" style={{ textDecoration: 'none' }}>
                 <div className="w-8 h-8 rounded-sm flex items-center justify-center flex-shrink-0" style={{ border: '1px solid rgba(184,115,51,0.25)', background: 'rgba(184,115,51,0.05)' }}>
